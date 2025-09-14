@@ -15,6 +15,7 @@ This mod requires "Canoe Mod" and patches the barkcanoe.json to allow for more s
 - **Control from any seat**: You can now use the oar to control the canoe from any seat in the canoe.
 - **More storage**: Every space in the canoe can now hold any chest, clay vessel, or basket.
 - **Speed increase**: The canoe now goes 50% faster than the original.
+- **Use Lanterns or Oil Lamps**: You can use either a lantern or an oil lamp! (Or both.. it's just ugly.
 
 ## Screenshots
 
