@@ -8,7 +8,7 @@ This mod requires "Canoe Mod" and patches the barkcanoe.json to allow for more s
 
 ### About "Canoe Mod" (Original Mod)
 
-"Canoe Mod" allows the player to craft a birch bark canoe, that can carry up to 4 players, a light, and optional storage. 
+"Canoe" allows the player to craft a birch bark canoe, that can carry up to 4 players, a light, and optional storage. 
 
 ## Features
 
@@ -42,7 +42,7 @@ This mod requires "Canoe Mod" and patches the barkcanoe.json to allow for more s
 
 ## Repository
 
-[GitHub Repository](https://github.com/CircuitDev192/CanoeModCircuitsPatch)
+[GitHub Repository](https://github.com/CircuitDev192/CanoeCircuitsPatch)
 
 ## Version
 
