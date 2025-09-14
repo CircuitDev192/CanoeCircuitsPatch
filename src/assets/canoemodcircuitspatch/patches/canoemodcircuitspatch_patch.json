@@ -122,6 +122,14 @@
 						stepParentTo: {
 							"": { elementName: "lanternspot" }
 						}
+					},
+					{
+						code: "actuallanternspot",
+						forCategoryCodes: ["lantern"],
+						attachmentPointCode: "ActualLanternStorageAP",
+						stepParentTo: {
+							"": { elementName: "actuallanternspot" }
+						}
 					}
 				] },
 	"side": "Server",
@@ -138,6 +146,53 @@
 		}
 	},
     "side": "Server",
+	"dependsOn": [{ "modid": "canoemod" }]
+  },
+  {
+	"file": "canoemod:shapes/entity/water/boat/barkcanoe.json",
+	"op": "addmerge",
+	"path": "/elements/0/children/-",
+	"value": {	"name": "actuallanternspot",
+				"from": [ -37.0, 9.0, -8.0 ],
+				"to": [ -26.0, 13.0, 0.0 ],
+				"rotationOrigin": [ -34.0, 9.0, 0.0 ],
+				"faces": {
+				},
+				"attachmentpoints": [
+					{
+						"code": "ActualLanternStorageAP",
+						"posX": "-5.0","posY": "0.0","posZ": "-5.0",
+						"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+					}
+				]},
+	"dependsOn": [{ "modid": "canoemod" }]
+  },
+  {
+	"file": "canoemod:shapes/entity/water/boat/barkcanoe.json",
+	"op": "replace",
+	"path": "/elements/0/children/12/from",
+	"value": [ -34.0, 9.0, -4.0 ],
+	"dependsOn": [{ "modid": "canoemod" }]
+  },
+  {
+	"file": "canoemod:shapes/entity/water/boat/barkcanoe.json",
+	"op": "replace",
+	"path": "/elements/0/children/12/to",
+	"value": [ -26.0, 13.0, 4.0 ],
+	"dependsOn": [{ "modid": "canoemod" }]
+  },
+  {
+	"file": "canoemod:entities/water/barkcanoe.json",
+	"op": "replace",
+	"path": "/behaviorConfigs/selectionboxes/selectionBoxesByType",
+	"value": { "canoe-barkcanoe-*": ["FrontSeatAP", "MiddleSeat2AP", "MiddleSeat1AP", "BackSeatAP", "OarAP", "LanternStorageAP", "ActualLanternStorageAP"] },
+	"dependsOn": [{ "modid": "canoemod" }]
+  },
+  {
+	"file": "canoemod:lang/en.json",
+	"op": "addmerge",
+	"path": "/creature-canoemod:*-selectionbox-ActualLanternStorageAP",
+	"value": "lantern spot",
 	"dependsOn": [{ "modid": "canoemod" }]
   }
 ]
