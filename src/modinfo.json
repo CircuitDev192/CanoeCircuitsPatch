@@ -1,8 +1,8 @@
 {
   "Type": "content",
   "Name": "Canoe Mod: Circuit's Patch",
-  "Version": "1.0.0",
-  "Description": "Patches Canoe Mod by iuno with a few personal tweaks.",
+  "Version": "2.0.0",
+  "Description": "Patches Unofficial 1.21.x Canoe Mod by goonalgaib (original by iuno) with a few personal tweaks.",
   "Website": "https://github.com/CircuitDev192/CanoeCircuitsPatch",
   "ModID": "canoemodcircuitspatch",
   "Authors": [
