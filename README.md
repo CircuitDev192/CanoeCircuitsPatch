@@ -14,8 +14,8 @@ This mod requires "Canoe Mod" and patches the barkcanoe.json to allow for more s
 
 - **Control from any seat**: You can now use the oar to control the canoe from any seat in the canoe.
 - **More storage**: Every space in the canoe can now hold any chest, clay vessel, or basket.
-- **Speed increase**: The canoe now goes 50% faster than the original.
-- **Use Lanterns or Oil Lamps**: You can use either a lantern or an oil lamp! (Or both.. it's just ugly.
+- ~~**Speed increase**: The canoe now goes 50% faster than the original.~~ (Implemented in unofficial 1.21 version of Canoe Mod)
+- **Use Lanterns or Oil Lamps**: You can use either a lantern or an oil lamp! (Or both.. it's just ugly.) Works with new oil lamps colors!
 
 ## Screenshots
 
@@ -24,6 +24,8 @@ This mod requires "Canoe Mod" and patches the barkcanoe.json to allow for more s
 ![Screenshot 1](pic1.png)
 
 ![Screenshot 2](pic2.png)
+
+![Screenshot 3](pic3.png)
 
 ## Installation
 
@@ -34,8 +36,8 @@ This mod requires "Canoe Mod" and patches the barkcanoe.json to allow for more s
 
 ## Requirements
 
-- **Vintage Story 1.20.12** (or compatible version)
-- **Canoe Mod 1.0.2** (required dependency)
+- **Vintage Story 1.21.x** (or compatible version)
+- **Canoe Mod 1.21 1.0.4** (required dependency)
 
 ## Author
 
@@ -47,7 +49,7 @@ This mod requires "Canoe Mod" and patches the barkcanoe.json to allow for more s
 
 ## Version
 
-1.0.0
+2.0.0
 
 ## License
 
